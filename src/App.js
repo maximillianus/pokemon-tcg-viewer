@@ -1,10 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 import {
   TitleText,
   FooterCreditText,
   GithubLogo,
-  PokemonCardFinder} from './components/PokemonTCG'
+  PokemonCardFinder} from './components/PokemonTCG-with-vanilla'
 
 function App() {
   return (

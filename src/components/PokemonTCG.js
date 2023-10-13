@@ -97,32 +97,6 @@ function SearchBar({pokemonSearch, onSearchSubmit, setSearchResult, setCardInfo}
   )
 }
 
-function SearchBarInputfield ({pokemon, onTextChange}) {
-
-  return (
-      <input
-        type='text'
-        placeholder='Search..'
-        value={pokemon}
-        onChange={(e) => {
-          onTextChange(e.target.value)
-        }}
-        >
-
-      </input>
-  )
-}
-
-function SearchBarGoButton () {
-  return (
-    <>
-    <button type='submit'>
-      Go
-    </button>
-    </>
-  )
-}
-
 function DisplayCardPanel({pokemonResult, pokemonCardInfo}) {
 
   return (
